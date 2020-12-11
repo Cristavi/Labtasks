@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question5">
+
+    <TextView
+        android:id="@+id/tvUN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/etUN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@+id/tvUN"/>
+    <TextView
+        android:id="@+id/tvPw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@+id/tvUN"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@+id/tvPw"
+        android:layout_below="@+id/etUN"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPw"
+        android:backgroundTint="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
